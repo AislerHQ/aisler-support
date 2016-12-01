@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ElectronicsWorkbench Schema="67">
+<DataExportContainer Class="CExportContainer" Name="" SortNum="0">
+<DrillExport Class="CDrillExport" ToExport="1" Decimals="4" Integers="2" Metric="0" Unit="&amp;ASCnm"/>
+<CentroidExport Class="CCentroidExport" ToExport="0" Text="1" Comma="1" HTML="1" Unit="&amp;ASCnm">
+<VectorStringTable SortColumn="0"/>
+</CentroidExport>
+<BomExport Class="CBomExport" ToExport="0" Text="1" Comma="1" HTML="1" Unit="&amp;ASCnm">
+<VectorStringTable SortColumn="0"/>
+</BomExport>
+<BoardDataExport Class="CBoardDataExport" ToExport="0" Text="1" Comma="1" HTML="1" Unit="&amp;ASCnm">
+<VectorStringTable SortColumn="0"/>
+</BoardDataExport>
+<DXFExport Class="CDXFExport" ToExport="0" UnitName="&amp;ASCmm"/>
+<ThreeDDXFExport Class="C3DDXFExport" ToExport="0" UnitName="&amp;ASCmm" ExportComponents="1" ExportPins="1" ExportBoardOutline="1" ExportSilk="0" ExportCopper="0"/>
+<TestPointExport Class="CTestPointExport" ToExport="0" Text="1" Comma="1" HTML="1" Unit="&amp;ASCnm">
+<VectorStringTable SortColumn="0"/>
+</TestPointExport>
+<CopperAmountExport Class="CCopperAmountExport" ToExport="0" Text="1" Comma="1" HTML="1" Unit="&amp;ASCnm">
+<VectorStringTable SortColumn="0"/>
+</CopperAmountExport>
+<ThreeDIGESExport Class="C3DIGESExport" ToExport="0" Unit="&amp;ASCnm" ExportComponents="1" ExportPins="1" ExportBoardOutline="1" ExportSilk="0" ExportCopper="0"/>
+<ExportBase Class="CIPCD356AExport" ToExport="0"/>
+<LayerStackExport Class="CLayerStackExport" ToExport="0" Text="1" Comma="1" HTML="1" Unit="&amp;ASCnm">
+<VectorStringTable SortColumn="0"/>
+</LayerStackExport>
+<GerberExport Class="CGerberExport" ToExport="1" Integer="2" Decimal="5" Metric="0" Reflection="0" BoardOutline="0" OversizeSoldermask="0" OversizeSoldermaskBot="0" OversizeSolderpaste="0" MinimumOversize="0" MinimumOversizeBot="0" MinimumOversizePaste="0" Tolerance="0" ShowDrillHoles="0" Negative="0">
+<Layer Name="&amp;ASCTop"/>
+<Layer Name="&amp;ASCBottom"/>
+<Layer Name="&amp;ASCBoard Outline"/>
+<Layer Name="&amp;ASCSilkscreen Top"/>
+<Layer Name="&amp;ASCSilkscreen Bot"/>
+<Layer Name="&amp;ASCSolder mask Top"/>
+<Layer Name="&amp;ASCSolder mask Bot"/>
+<GroupMap GroupCount="0"/>
+</GerberExport>
+<GerberExport Class="CGerberDExport" ToExport="0" Integer="2" Decimal="5" Metric="0" Reflection="0" BoardOutline="0" OversizeSoldermask="0" OversizeSoldermaskBot="0" OversizeSolderpaste="0" MinimumOversize="0" MinimumOversizeBot="0" MinimumOversizePaste="0" Tolerance="0" ShowDrillHoles="0" Negative="0">
+<GroupMap GroupCount="0"/>
+</GerberExport>
+<SVGExport Class="CSVGExport" ToExport="0" Compressed="1" MinStrokeWidth="100"/>
+</DataExportContainer>
+</ElectronicsWorkbench>
