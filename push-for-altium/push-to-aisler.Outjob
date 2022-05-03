@@ -21,7 +21,7 @@ TargetOutputMedium=Push to AISLER
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Brother HL-2250DN series
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Push to AISLER
 OutputMedium1_Type=GeneratedFiles
@@ -48,7 +48,7 @@ Configuration2_Item1=AssyAdjacencyDistance=250000|AssyGenerateCSVFormat=False|As
 OutputType3=BOM_PartType
 OutputName3=Bill of Materials
 OutputCategory3=Report
-OutputDocumentPath3=my_project_pcb.PcBDoc
+OutputDocumentPath3=my_project_pcb.PcbDoc
 OutputVariantName3=
 OutputEnabled3=1
 OutputEnabled3_OutputMedium1=3
@@ -57,15 +57,15 @@ PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration3_Name1=ColumnNameFormat
 Configuration3_Item1=CaptionAsName
 Configuration3_Name2=General
-Configuration3_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=4|FormWidth=1768|FormHeight=1126|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration3_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=4|FormWidth=1768|FormHeight=899|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
 Configuration3_Name3=GroupOrder
 Configuration3_Item3=
 Configuration3_Name4=SortOrder
 Configuration3_Item4=Designator=Up|Comment=Up|Footprint=Up
 Configuration3_Name5=VisibleOrder
-Configuration3_Item5=Comment=100|Designator=100|Footprint=100|Center-X(mm)=100|Center-Y(mm)=100|Mounting Technology=100|PartNumber=100|Layer=100|Rotation=100|Description=100|Part Number=100|MountingTechnology=100
+Configuration3_Item5=Comment=100|Designator=100|Footprint=100|Center-X(mm)=100|Center-Y(mm)=100|Mounting Technology=100|PartNumber=100|Layer=100|Rotation=100|Description=100|Part Number=100|MountingTechnology=100|Mount=100
 Configuration3_Name6=VisibleOrder_Flat
-Configuration3_Item6=Comment=100|Designator=100|Footprint=100|Center-X(mm)=100|Center-Y(mm)=100|Mounting Technology=100|PartNumber=100|Layer=100|Rotation=100|Description=100|Part Number=100|MountingTechnology=100
+Configuration3_Item6=Comment=100|Designator=100|Footprint=100|Center-X(mm)=100|Center-Y(mm)=100|Mounting Technology=100|PartNumber=100|Layer=100|Rotation=100|Description=100|Part Number=100|MountingTechnology=100|Mount=100
 
 [PublishSettings]
 OutputFilePath1=C:\Windows\Temp\AISLER\
