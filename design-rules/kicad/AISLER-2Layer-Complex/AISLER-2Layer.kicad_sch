@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid d9489f1d-5309-4cb7-b494-6d42f74cce35)
+
+  (paper "A4")
+
+  (title_block
+    (rev "1")
+    (comment 1 "Designed for AISLER 2-Layer Service")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
