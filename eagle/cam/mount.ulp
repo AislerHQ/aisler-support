@@ -1,0 +1,50 @@
+#usage "<b>Data generation for mounting machines</b>\n"
+       "<p>"
+       "Generates a file that can be used with mounting machines. "
+       "The x- and y- coordinates (units: mil) are calculated as mean of "
+       "maximum and mimimum value of the pads or smds origin points. "
+       "The calculated value does not necessarily fit with the origin "
+       "point of the part in the layout."
+       "<p>"
+       "The syntax of the output data looks like this:"
+       "<p>"
+       "<tt>value;x-coord;y-coord;rotation;name</tt>"
+       "<p>"
+       "<author>Author: support@cadsoft.de</author>"
+
+// THIS PROGRAM IS PROVIDED AS IS AND WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED
+
+if (board) board(B) {
+
+  // Get filename
+  string fileName = dlgFileSave("Save File", filesetext(B.name, ".mnt"), "*.mnt");
+  if (fileName == "") exit(0);
+
+  output(fileName) {
+
+   B.elements(E) {
+
+     int xmax =-2147483648,
+         xmin = 2147483647,
+         ymax = xmax,
+         ymin = xmin;
+
+       E.package.contacts(C) {
+
+         if (C.x > xmax) xmax = C.x;
+         if (C.y > ymax) ymax = C.y;
+         if (C.x < xmin) xmin = C.x;
+         if (C.y < ymin) ymin = C.y;  }
+
+
+       printf("%s;%5.0f;%5.0f;%3.0f;%s \n",
+             E.value, u2mil((xmin + xmax)/2), u2mil((ymin + ymax)/2),
+             E.angle, E.name );
+   }
+  }
+}
+
+else {
+   dlgMessageBox("\n    Start this ULP in a Board    \n");
+   exit (0);
+}
