@@ -5,7 +5,7 @@
 #----------------------------------------------------------------------------------------------------
 # We created these custom rules to warn you if your design hits our manufacturing bounderies. 
 # You can disable the custom rules by commenting them out, though we advise against it.  
-# These rules are valid as of February 2023 please check for updated ones on our forum.
+# These rules are valid as of September 2023 please check for updated ones on our forum.
 # Please also note that these rules do not catch every single manufacturing limit. 
 # If you are not certain please check the documentation on our website. 
 #----------------------------------------------------------------------------------------------------
@@ -37,11 +37,4 @@
     (condition "A.Type == 'Pad'"))
 
 #----------------------------------------------------------------------------------------------------
-
-#Its is important to keep a safe distance between the Vias. 
-#This even applies to vias of the same net. 
-
-(rule "Distance between Vias"
-    (constraint hole_to_hole (min 0.55mm))
-    (condition "A.Type == 'Via' && B.Type == 'Via'"))
 
