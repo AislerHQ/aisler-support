@@ -10,7 +10,7 @@ Everything else you will find in our [Community]([https://aisler.community/](htt
 
 ## License
 
-AISLER Support files are Copyright © 2022 by AISLER B.V. It is free software, and may be
+AISLER Support files are Copyright © 2023 by AISLER B.V. It is free software, and may be
 redistributed under the terms specified in the license file.
 
 ## About AISLER
