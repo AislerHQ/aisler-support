@@ -1,8 +1,8 @@
-description[de] = <b>Aisler Design Rules -  2 Layers - complex</b>\n\n<p>\nPlease note that the design rules provided here constitute the limit of our manufacturing capabilities. Especially in combination with the autorouter, boards are not guaranteed to be functional. So if possible, try not to exploit the drc minimum.\n\nEverything else you will find on https://aisler.net/help
-description[en] = <b>Aisler Design Rules -  2 Layers - complex</b>\n\n<p>\nPlease note that the design rules provided here constitute the limit of our manufacturing capabilities. Especially in combination with the autorouter, boards are not guaranteed to be functional. So if possible, try not to exploit the drc minimum.\n\nEverything else you will find on https://aisler.net/help
-layerSetup = (1*16)
+description[de] = <b>Aisler Design Rules -  6 Layers - complex</b>\n\n<p>\nPlease note that the design rules provided here constitute the limit of our manufacturing capabilities. Especially in combination with the autorouter, boards are not guaranteed to be functional. So if possible, try not to exploit the drc minimum.\n\nEverything else you will find on https://aisler.net/help
+description[en] = <b>Aisler Design Rules -  4 Layers - complex</b>\n\n<p>\nPlease note that the design rules provided here constitute the limit of our manufacturing capabilities. Especially in combination with the autorouter, boards are not guaranteed to be functional. So if possible, try not to exploit the drc minimum.\n\nEverything else you will find on https://aisler.net/help
+layerSetup = (1+2*3+14*15+16)
 mtCopper = 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm
-mtIsolate = 1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm
+mtIsolate = 0.138mm 0.2mm 0.525mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.2mm 0.138mm
 mdWireWire = 0.125mm
 mdWirePad = 0.125mm
 mdWireVia = 0.125mm
