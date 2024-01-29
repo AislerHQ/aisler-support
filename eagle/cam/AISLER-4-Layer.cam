@@ -1,7 +1,7 @@
 {
     "author": {
-        "email": "thore@aisler.net",
-        "name": "Thore Krug"
+        "email": "support@aisler.net",
+        "name": "T. Krug"
     },
     "description": {
         "EN": "Default AISLER CAM file for 4 Layer boards created in Autodesk EAGLE. If you wish to include custom layer please adjust the file accordingly"
@@ -318,20 +318,6 @@
             "filename_prefix": "CAMOutputs/Assembly",
             "output_type": "assembly",
             "outputs": [
-                {
-                    "filename_format": "%ASSEMBLYPREFIX/%N",
-                    "list_attribute": true,
-                    "list_type": "values",
-                    "name": "Bill of Material",
-                    "output_format": "txt",
-                    "type": "bom"
-                },
-                {
-                    "filename_format": "%ASSEMBLYPREFIX/PnP_%N_%BOARDSIDE",
-                    "name": "Pick and Place",
-                    "output_format": "txt",
-                    "type": "pick_and_place"
-                }
             ]
         },
         {
@@ -341,7 +327,7 @@
             ]
         }
     ],
-    "timestamp": "2023-04-04T11:41:28",
+    "timestamp": "2024-01-29T12:20:36",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"
