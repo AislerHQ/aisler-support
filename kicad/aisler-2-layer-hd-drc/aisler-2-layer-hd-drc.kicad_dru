@@ -1,22 +1,22 @@
-(version 1)
+(version 1.1)
 #----------------------------------------------------------------------------------------------------
 # AISLER custom DRC rules.
 # Make Hardware less Hard. 
 #----------------------------------------------------------------------------------------------------
 # We created these custom rules to warn you if your design hits our manufacturing bounderies. 
 # You can disable the custom rules by commenting them out, though we advise against it.  
-# These rules are valid as of September 2023 please check for updated ones on our forum.
+# These rules are valid as of May 2024, please check for updated ones on our forum.
 # Please also note that these rules do not catch every single manufacturing limit. 
 # If you are not certain please check the documentation on our website. 
 #----------------------------------------------------------------------------------------------------
 
 # As our tooling is finite we only support certain trough hole sizes. 
-# Please keep the plated trough holes below 5.65mm in diameter. 
+# Please keep the plated trough holes below 5.6mm in diameter. 
 # We provide a community post for more details: 
 # https://community.aisler.net/t/plated-and-non-plated-holes/50
 
 (rule "Max Drill Hole Size PTH"
-    (constraint hole_size (max 5.65mm))
+    (constraint hole_size (max 5.6mm))
     (condition "A.Pad_Type == 'Through-hole'"))
 
 #----------------------------------------------------------------------------------------------------
@@ -37,5 +37,3 @@
     (condition "A.Type == 'Pad'"))
 
 #----------------------------------------------------------------------------------------------------
-
-
