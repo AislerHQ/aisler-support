@@ -15,7 +15,7 @@ redistributed under the terms specified in the license file.
 
 ## About AISLER
 
-![AISLER](https://aisler.net/logos/logo_medium.png)
+![AISLER](https://aisler.net/logos/AISLER_Logo.svg)
 
 Looking for industry quality and affordable PCBs, visit us at [AISLER](https://aisler.net)
 
